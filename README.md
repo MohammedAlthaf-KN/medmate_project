@@ -41,3 +41,13 @@ Mohammed Althaf K N
 
 ### Admin Dashboard
 ![Admin](screenshots/admin_dashboard.png)
+
+## System Architecture
+
+Android App (Java)
+        ↓
+     API Calls
+        ↓
+PHP Backend
+        ↓
+MySQL Database
