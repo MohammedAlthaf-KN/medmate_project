@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dd"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="@color/boxes">
+
+        <!-- Circular Image on the left side -->
+        <ImageView
+            android:id="@+id/bookimage"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+
+            android:src="@drawable/appoinment_logo"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Text layout on the right side -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <!-- Doctor's Name -->
+            <TextView
+                android:id="@+id/docname2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doctor's Name"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Pet's Name -->
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient Name"
+                android:textColor="@color/green"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Date and Time -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Date -->
+                <TextView
+                    android:id="@+id/date2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date:"
+                    android:textColor="@color/green"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="4dp" />
+
+                <!-- Time -->
+                <TextView
+                    android:id="@+id/booktime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time:"
+                    android:textColor="@color/green"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:layout_marginBottom="4dp" />
+            </LinearLayout>
+
+            <!-- Status Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+
+                android:gravity="center_vertical">
+
+                <!-- Status label -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status:"
+                    android:textColor="#022E42"
+                    android:textStyle="normal"
+                    android:textSize="19sp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="4dp" />
+
+                <!-- Status text -->
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pending"
+                    android:textColor="@color/green"
+                    android:textSize="19sp"
+                    android:textStyle="normal"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:layout_marginBottom="4dp" />
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,111 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/bookcard8"
+    android:layout_margin="8dp"
+    android:layout_marginLeft="20dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="14dp"
+    app:cardBackgroundColor="@color/green1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Circular Image on the left side -->
+        <ImageView
+            android:id="@+id/bookimage8"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+
+            android:src="@drawable/healthtips_logo"
+            android:layout_marginEnd="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Camera Icon ImageView -->
+            <!--        <ImageView-->
+            <!--            android:id="@+id/bookCameraIcon"-->
+            <!--            android:layout_width="60dp"-->
+            <!--            android:layout_height="50dp"-->
+            <!--            android:src="@drawable/baseline_video_camera_front_24"-->
+            <!--       android:layout_marginLeft="280dp"-->
+            <!--        android:layout_marginTop="16dp"-->
+            <!--        android:contentDescription="Camera Icon" />-->
+
+            <!-- User name -->
+            <TextView
+                android:id="@+id/bookdoc8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif-condensed-medium" />
+
+            <!-- User description -->
+            <!--            <TextView-->
+            <!--                android:id="@+id/bookdoc26"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="User phn"-->
+            <!--                android:textColor="@color/white"-->
+            <!--                android:textSize="16sp"-->
+            <!--                android:textStyle="normal"-->
+            <!--                android:layout_marginLeft="30dp"-->
+            <!--                android:fontFamily="sans-serif-condensed-medium"-->
+            <!--                android:layout_marginBottom="4dp" />-->
+
+            <!-- Pet name -->
+            <!--            <TextView-->
+            <!--                android:id="@+id/bookpet6"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text=" Name"-->
+            <!--                android:textColor="@color/white"-->
+            <!--                android:layout_marginLeft="30dp"-->
+            <!--                android:textSize="16sp"-->
+            <!--                android:textStyle="normal"-->
+            <!--                android:fontFamily="sans-serif-condensed-medium"-->
+            <!--                android:layout_marginBottom="4dp" />-->
+
+
+
+            <!-- Date -->
+            <!--            <TextView-->
+            <!--                android:id="@+id/bookdate6"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Date"-->
+            <!--                android:textColor="@color/white"-->
+            <!--                android:textSize="16sp"-->
+            <!--                android:layout_marginLeft="33dp"-->
+            <!--                android:textStyle="normal"-->
+            <!--                android:fontFamily="sans-serif-condensed-medium"-->
+            <!--                />-->
+
+            <!-- Time -->
+            <!--            <TextView-->
+            <!--                android:id="@+id/booktime2"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Time"-->
+            <!--                android:textColor="#022E42"-->
+            <!--                android:textSize="16sp"-->
+            <!--                android:layout_marginLeft="33dp"-->
+            <!--                android:textStyle="normal"-->
+            <!--                android:fontFamily="sans-serif-condensed-medium" />-->
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

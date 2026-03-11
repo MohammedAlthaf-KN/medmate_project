@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".approvedbooking_fullactivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/apus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name:"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/apusnmr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Number:"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/ape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/apage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/apresn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reason:"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/apdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/aptime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+
+
+
+
+    </LinearLayout>
+
+  </RelativeLayout>

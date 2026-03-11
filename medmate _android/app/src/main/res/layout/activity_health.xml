@@ -1,0 +1,242 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Health">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/bg"
+        android:gravity="center">
+
+        <!-- Title Text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health"
+            android:textSize="34sp"
+            android:textColor="@color/green"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Personal Info Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal Information"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/green"/>
+
+        <!-- Age Input Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <EditText
+                android:id="@+id/ha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:background="@color/boxes"
+                android:layout_marginHorizontal="16dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Height Input Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/hhe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Height(cm)"
+                android:background="@color/boxes"
+                android:layout_marginHorizontal="16dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Weight Input Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/hwe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Weight(kg)"
+                android:background="@color/boxes"
+                android:layout_marginHorizontal="16dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:inputType="number"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Gender Spinner -->
+        <Spinner
+            android:id="@+id/hgender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Medical Conditions Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medical Conditions"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/green"/>
+
+                <Spinner
+                    android:id="@+id/chronic_conditions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:textStyle="bold"
+
+                    android:layout_marginTop="20dp"/>
+
+<!--        &lt;!&ndash; Chronic Conditions Input Field &ndash;&gt;-->
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp">-->
+<!--            <EditText-->
+<!--                android:id="@+id/chronic_conditions"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Chronic Conditions"-->
+<!--                android:background="@color/boxes"-->
+<!--                android:layout_marginHorizontal="16dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="18sp"/>-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--        &lt;!&ndash; Medication Input Field &ndash;&gt;-->
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp">-->
+<!--            <EditText-->
+<!--                android:id="@+id/medications"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Medications"-->
+<!--                android:background="@color/boxes"-->
+<!--                android:layout_marginHorizontal="16dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="18sp"-->
+<!--                />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--        &lt;!&ndash; Activity Section &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Physical Activity"-->
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textColor="@color/green"/>-->
+
+<!--        &lt;!&ndash; Exercise Routine Spinner &ndash;&gt;-->
+<!--        <Spinner-->
+<!--            android:id="@+id/exercise_routine"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="16dp"-->
+<!--            android:textStyle="bold"-->
+
+<!--            android:layout_marginTop="20dp"/>-->
+
+<!--        &lt;!&ndash; Sleep and Mental Health Section &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Sleep and Mental Health"-->
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textColor="@color/black"/>-->
+
+<!--        &lt;!&ndash; Sleep Spinner &ndash;&gt;-->
+<!--        <Spinner-->
+<!--            android:id="@+id/sleep_patterns"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="16dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="20dp"/>-->
+
+<!--        &lt;!&ndash; Mental Health Spinner &ndash;&gt;-->
+<!--        <Spinner-->
+<!--            android:id="@+id/mental_health"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="16dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="10dp"/>-->
+
+<!--        &lt;!&ndash; Additional Lifestyle Section &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Lifestyle Habits"-->
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textColor="@color/black"/>-->
+
+<!--        &lt;!&ndash; Diet Spinner &ndash;&gt;-->
+<!--        <Spinner-->
+<!--            android:id="@+id/diet"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="16dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="20dp"/>-->
+
+<!--        &lt;!&ndash; Social Habits Spinner &ndash;&gt;-->
+<!--        <Spinner-->
+<!--            android:id="@+id/social_habits"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="16dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="10dp"/>-->
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/regbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/green"
+            android:textSize="18sp"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
