@@ -2,8 +2,8 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Mar 02, 2025 at 10:07 AM
+-- Host: 127.0.0.1:3307
+-- Generation Time: Mar 15, 2026 at 11:40 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.1.25
 
@@ -48,7 +48,6 @@ CREATE TABLE `doctorbooking` (
 --
 
 INSERT INTO `doctorbooking` (`id`, `docname`, `docemail`, `username`, `usernumber`, `useremail`, `userage`, `reason`, `date`, `time`, `status`, `fee`, `feedate`) VALUES
-(15, 'Dr.Althaf', 'althaf@gmail.com', 'gopika', '0987654321', 'gopika@gmail.com', '25', 'nxnxnxnx', '19/1/2025', '10am-10.30am', 'Approve', '200', '15-01-2025 11:35:52'),
 (19, 'Dr.Althaf', 'althaf@gmail.com', 'gopika', '0987654321', 'gopika@gmail.com', '25', 'nxnxnxnx', '19/1/2025', '10am-10.30am', 'Approve', '200', '15-01-2025 11:35:52'),
 (20, 'Dr.Althaf', 'althaf@gmail.com', 'gopika', '0987654321', 'gopika@gmail.com', '25', 'nxnxnxnx', '19/1/2025', '10am-10.30am', '', '', ''),
 (21, 'Dr.Althaf', 'althaf@gmail.com', 'Hashif pa', '9846300227', 'hashifpa1@gmail.com', '21', 'headache', '4/3/2025', '10am-10.30am', 'Approve', '', ''),
@@ -80,7 +79,6 @@ CREATE TABLE `doctor_register` (
 --
 
 INSERT INTO `doctor_register` (`id`, `name`, `speciality`, `dob`, `gender`, `experience`, `email`, `hospital`, `mobilenumber`, `password`, `document`, `status`) VALUES
-(33, 'Dr.Althaf', 'Orthopedic', '11/12/1998', 'Male', '10year', 'althaf@gmail.com', 'Craft Hospital', '7994641609', '123123', '1000616113.jpg', 'approve'),
 (34, 'Dr.Hashif', 'Endocrinologist', '11/12/1975', 'Male', '11', 'hashif@gmail.com', 'Modern', '9988776655', '123123', '1000616067.jpg', 'approve'),
 (35, 'Dr.Hisham', 'Ophthalmologist', '11/12/1987', 'Male', '4years', 'hisham@gmail.com', 'AR Hospital', '9911223344', '12341234', '1000615974.jpg', 'approve'),
 (36, 'hashif', 'Dermatologist', '16/12/1990', 'Male', '10', 'hash@gmail.com', 'modern ', '9846300227', '123456', '1000123653.jpg', 'approve');
@@ -204,10 +202,8 @@ CREATE TABLE `prescription` (
 --
 
 INSERT INTO `prescription` (`id`, `doctorname`, `doctorphone`, `username`, `userphone`, `prescription`, `date`) VALUES
-(1, 'Dr.Althaf', '7994641609', 'gopika', '098765432', '1000036129.jpg', ''),
-(2, 'Dr.Althaf', '7994641609', 'gopika', '0987654321', '1000036127.jpg', '2025-01-19 07:17:15'),
-(3, 'Dr.Althaf', '7994641609', 'gopika', '0987654321', '1000036269.jpg', '19-01-2025'),
-(4, 'Dr.Althaf', '7994641609', 'gopika', '0987654321', '1000036297.jpg', '19-01-2025');
+(3, 'Dr.Althaf', '9745399731', 'gopika', '0987654321', '1000036269.jpg', '19-01-2025'),
+(4, 'Dr.Althaf', '9745399731', 'gopika', '0987654321', '1000036297.jpg', '19-01-2025');
 
 -- --------------------------------------------------------
 
