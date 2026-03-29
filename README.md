@@ -1,4 +1,4 @@
-# MedMate – AI Medical Consultation App
+# MedMate – AI Medical Consultation Ap
 
 MedMate is an AI-based Android application that helps users consult medical information and manage healthcare interactions digitally.
 
